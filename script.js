@@ -4,6 +4,8 @@ var ask = prompt('Please Type a Year');
 
 let newYears = `1 Jan ${ask}`
 
+document.getElementById('yearType').innerHTML = ask;
+
 if(ask.match("^[0-9]*") && ask >= 2023) {
     function countdown () {
         const newYearsDate = new Date(newYears);
@@ -31,7 +33,7 @@ if(ask.match("^[0-9]*") && ask >= 2023) {
         document.getElementById('hours').innerHTML = format(hours);
         document.getElementById('mins').innerHTML = format(mins);
         document.getElementById('seconds').innerHTML = format(seconds);
-    
+        
     }
     
     function format (time) {
