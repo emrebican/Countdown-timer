@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    background: url('https://images.unsplash.com/photo-1487424439918-bc6b5bef0380?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1333&q=80');
+    background-repeat: none;
+    background-position: top;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+h1 {
+    margin-top: 5rem;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.countdown-container {
+    /* width: 40%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2rem;
+    font-weight: 500;
+    flex-wrap: wrap;
+}
+
+.big-text {
+    font-size: 5rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+    padding: 0 2rem;
+}
+
+.texts {
+    text-align: center;
+}
+
+span {
+    font-size: 1.2rem;
+}
+
+.live {
+    font-size: 5rem;
+    margin-top: 7rem;
+    /* margin-right: -2.5rem; */
+    /* margin-left: -2.5rem; */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+#yearHere {
+    margin-bottom: -5rem;
+}
