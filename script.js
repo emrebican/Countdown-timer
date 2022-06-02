@@ -4,7 +4,7 @@ var ask = prompt('Please Type a Year');
 
 let newYears = `1 Jan ${ask}`
 
-document.getElementById('yearType').innerHTML = ask;
+document.getElementById('yearType').innerHTML = `New Year - ${ask}`;
 
 if(ask.match("^[0-9]*") && ask >= 2023) {
     function countdown () {
